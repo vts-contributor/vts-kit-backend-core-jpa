@@ -1,0 +1,49 @@
+
+J
+java:S3740>"/Provide the parametrized type for this generic.(¢öˆžøÿÿÿÿ
+E
+java:S3740J"/Provide the parametrized type for this generic.(§¡›
+J
+java:S3740~"/Provide the parametrized type for this generic.(¢öˆžøÿÿÿÿ
+F
+java:S3740…"/Provide the parametrized type for this generic.(§¡›
+K
+java:S3740ž"/Provide the parametrized type for this generic.(¢öˆžøÿÿÿÿ
+F
+java:S3740£"/Provide the parametrized type for this generic.(§¡›
+K
+java:S3740¤"/Provide the parametrized type for this generic.(ñóÜþüÿÿÿÿ
+K
+java:S3740Ë"/Provide the parametrized type for this generic.(Œ¸¶úÿÿÿÿ
+F
+java:S3740í"/Provide the parametrized type for this generic.(é›ìÇ
+K
+java:S3740õ"/Provide the parametrized type for this generic.(Œ¸¶úÿÿÿÿ
+K
+java:S3740’"/Provide the parametrized type for this generic.(¢öˆžøÿÿÿÿ
+m
+java:S3776$"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Á©î¤ùÿÿÿÿ
+L
+java:S4838="6Change "Object" to the type handled by the Collection.(¸¯¤Ì
+L
+java:S4838}"6Change "Object" to the type handled by the Collection.(¸¯¤Ì
+B
+java:S1168‰"+Return an empty collection instead of null.(¥¹ï
+M
+java:S4838"6Change "Object" to the type handled by the Collection.(¸¯¤Ì
+M
+java:S4838ì"6Change "Object" to the type handled by the Collection.(¸¯¤Ì
+M
+java:S4838‘"6Change "Object" to the type handled by the Collection.(¸¯¤Ì
+P
+java:S1141'"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+P
+java:S1141h"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+U
+java:S1155¥">Use isEmpty() to check whether the collection is empty or not.(¢ÖÌá
+Z
+java:S1155Ì">Use isEmpty() to check whether the collection is empty or not.(´î”öúÿÿÿÿ
+Z
+java:S1155ö">Use isEmpty() to check whether the collection is empty or not.(´î”öúÿÿÿÿ
+N
+java:S2589‹"7Remove this expression which always evaluates to "true"(ÿ¿ÙÖ
