@@ -1,0 +1,5 @@
+vn\com\viettel\core\dto\BaseResultSelect.class
+vn\com\viettel\core\config\WebMvcConfig.class
+vn\com\viettel\core\repositories\impl\BaseRepositoryImpl.class
+vn\com\viettel\core\repositories\BaseRepository.class
+vn\com\viettel\core\utils\Utils.class
