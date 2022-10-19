@@ -45,6 +45,7 @@ public class Utils {
                 //converting json to entity
                 arrayList.add(map.readValue(mapToString, dtoClass));
             } catch (JsonProcessingException e) {
+                LOGGER.error(e.getMessage());
                 throw new RuntimeException(e.getMessage());
             }
         });

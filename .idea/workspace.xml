@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c14dc093-8830-4c5d-b8e3-eec10f458824" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/2740531eac5a650148ccf72ab38cd9a3dd5e28d3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/com/viettel/core/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/com/viettel/core/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/vts-kit-backend-core-jpa-1.0-RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/vts-kit-backend-core-jpa-1.0-RELEASE.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +28,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vts-kit-backend-base" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -58,7 +56,8 @@
       <workItem from="1665730894679" duration="1397000" />
       <workItem from="1666145676864" duration="3981000" />
       <workItem from="1666157027105" duration="113000" />
-      <workItem from="1666157274536" duration="968000" />
+      <workItem from="1666157274536" duration="5901000" />
+      <workItem from="1666179282446" duration="248000" />
     </task>
     <servers />
   </component>
@@ -70,22 +69,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1666145806845" />
-    <state width="1877" height="442" key="GridCell.Tab.0.bottom" timestamp="1666155950670">
+    <state width="1877" height="272" key="GridCell.Tab.0.bottom" timestamp="1666167203511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="442" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1666155950670" />
-    <state width="1877" height="442" key="GridCell.Tab.0.center" timestamp="1666155950670">
+    <state width="1877" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1666167203511" />
+    <state width="1877" height="272" key="GridCell.Tab.0.center" timestamp="1666167203510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="442" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1666155950670" />
-    <state width="1877" height="442" key="GridCell.Tab.0.left" timestamp="1666155950670">
+    <state width="1877" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1666167203510" />
+    <state width="1877" height="272" key="GridCell.Tab.0.left" timestamp="1666167203510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="442" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1666155950670" />
-    <state width="1877" height="442" key="GridCell.Tab.0.right" timestamp="1666155950670">
+    <state width="1877" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1666167203510" />
+    <state width="1877" height="272" key="GridCell.Tab.0.right" timestamp="1666167203511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="442" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1666155950670" />
+    <state width="1877" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1666167203511" />
     <state x="463" y="166" key="SettingsEditor" timestamp="1666153895516">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
