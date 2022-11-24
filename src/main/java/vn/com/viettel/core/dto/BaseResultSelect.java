@@ -8,4 +8,13 @@ import java.util.List;
 public class BaseResultSelect {
     List<? extends Object> listData;
     Object count;
+
+    public BaseResultSelect() {
+
+    }
+
+    public BaseResultSelect(List<? extends Object> listData, Object count) {
+        this.listData = listData;
+        this.count = count;
+    }
 }
