@@ -22,7 +22,7 @@
     </parent>
     <groupId>com.atviettelsolutions</groupId>
     <artifactId>vts-kit-backend-core-jpa</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>vts-kit-backend-core-jpa</name>
     <description>vts-kit-backend-core-jpa</description>
     <properties>
@@ -62,13 +62,6 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
-        </dependency>
-
-        <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
-            <type>jar</type>
         </dependency>
 
     </dependencies>

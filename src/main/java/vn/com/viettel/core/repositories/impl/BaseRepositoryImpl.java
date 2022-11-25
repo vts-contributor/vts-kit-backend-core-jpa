@@ -1,7 +1,8 @@
 package vn.com.viettel.core.repositories.impl;
 
 import com.zaxxer.hikari.HikariDataSource;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 import vn.com.viettel.core.dto.BaseResultSelect;
@@ -12,12 +13,15 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 import javax.persistence.Tuple;
-import java.util.*;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 @Repository
 @Transactional
 public class BaseRepositoryImpl implements BaseRepository {
-    private static final Logger LOGGER = Logger.getLogger(BaseRepositoryImpl.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(BaseRepositoryImpl.class);
 
     @PersistenceContext
     private EntityManager entityManager;
@@ -43,7 +47,7 @@ public class BaseRepositoryImpl implements BaseRepository {
                     databaseIsOracle = true;
                 }
             } catch (Exception e) {
-                LOGGER.error(e);
+                LOGGER.error(e.getMessage());
             }
             StringBuilder sqlPage = new StringBuilder();
             if (databaseIsOracle && startPage != null && pageLoad != null) {
@@ -80,7 +84,7 @@ public class BaseRepositoryImpl implements BaseRepository {
             result.setCount(getCountDataInSelect(queryString, hmapParams));
             return result;
         } catch (Exception e) {
-            LOGGER.error(e);
+            LOGGER.error(e.getMessage());
             return null;
         } finally {
             if (entityManager != null) entityManager.close();
@@ -108,7 +112,7 @@ public class BaseRepositoryImpl implements BaseRepository {
                     databaseIsOracle = true;
                 }
             } catch (Exception e) {
-                LOGGER.error(e);
+                LOGGER.error(e.getMessage());
             }
             StringBuilder sqlPage = new StringBuilder();
             if (databaseIsOracle && startPage != null && pageLoad != null) {
@@ -133,7 +137,7 @@ public class BaseRepositoryImpl implements BaseRepository {
             List objectList = query.getResultList();
             return Utils.convertToEntity(objectList, classOfT);
         } catch (Exception e) {
-            LOGGER.error(e);
+            LOGGER.error(e.getMessage());
             return null;
         } finally {
             if (entityManager != null) entityManager.close();
@@ -168,7 +172,7 @@ public class BaseRepositoryImpl implements BaseRepository {
                 return null;
             }
         } catch (Exception e) {
-            LOGGER.error(e);
+            LOGGER.error(e.getMessage());
             return null;
         } finally {
             if (entityManager != null) entityManager.close();
@@ -207,7 +211,7 @@ public class BaseRepositoryImpl implements BaseRepository {
                 return Integer.parseInt(result);
             }
         } catch (Exception e) {
-            LOGGER.error(e);
+            LOGGER.error(e.getMessage());
         } finally {
             if (entityManager != null) entityManager.close();
         }
@@ -249,7 +253,7 @@ public class BaseRepositoryImpl implements BaseRepository {
                 return Integer.parseInt(result);
             }
         } catch (Exception e) {
-            LOGGER.error(e);
+            LOGGER.error(e.getMessage());
         } finally {
             if (entityManager != null) entityManager.close();
         }
@@ -281,7 +285,7 @@ public class BaseRepositoryImpl implements BaseRepository {
             }
             query.executeUpdate();
         } catch (Exception e) {
-            LOGGER.error(e);
+            LOGGER.error(e.getMessage());
             result = false;
         } finally {
             if (entityManager != null) entityManager.close();
