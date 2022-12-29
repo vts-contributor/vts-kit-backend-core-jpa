@@ -10,7 +10,7 @@
     </parent>
     <groupId>vn.com.viettel.core</groupId>
     <artifactId>vts-kit-backend-core-jpa</artifactId>
-    <version>1.0.0</version>
+    <version>1.1-RELEASE</version>
     <name>vts-kit-backend-core-jpa</name>
     <description>vts-kit-backend-core-jpa</description>
     <properties>
@@ -38,4 +38,12 @@
             <optional>true</optional>
         </dependency>
     </dependencies>
+    <distributionManagement>
+        <repository>
+            <id>maven-releases</id>
+            <name>Internal Releases</name>
+            <!--suppress UnresolvedMavenProperty -->
+            <url>${env.NEXUS_REPO_RELEASE}</url>
+        </repository>
+    </distributionManagement>
 </project>
