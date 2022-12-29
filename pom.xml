@@ -14,7 +14,6 @@
     <name>vts-kit-backend-core-jpa</name>
     <description>vts-kit-backend-core-jpa</description>
     <properties>
-        <java.version>11</java.version>
     </properties>
 
     <dependencies>
